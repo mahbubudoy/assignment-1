@@ -1,4 +1,5 @@
 /* MY Font */
+
 .inter-font-style {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -43,8 +44,13 @@ nav button a {
     padding: 12px 36px;
 
 
-
-
+}
+.sign:hover{
+    background-color: rgb(205, 151, 50);
+}
+.stay:hover{
+    background-color: #fbbf24;
+    font-size: larger;
 }
 
 /* stay focused button decoration */
@@ -100,7 +106,10 @@ nav button a {
     height: 48px;
     border: none;
     border-radius: 5px;
-
+}
+.action-Button:hover{
+    background-color: coral;
+    font-size: larger;
 }
 
 .action-header {
@@ -292,4 +301,55 @@ footer a{
     margin-top: 200px;
     background-color: rgb(255, 255, 255);
     padding: 100px ;
+}
+/* Now let's get make optional section */
+.optional-title{
+    height: 40px;
+    width: 516px;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 71px 312px 20px 312px;
+}
+.optional-paragraph{
+    height: 22px;
+    width: 487px;
+    font-size: 18px;
+    color: #00000084;
+    margin: 0px 326px 20px 326px;
+}
+.optional-button{
+    background-color: #4E47FF;
+    height: 42px;
+    width: 187px;
+    border: none;
+    border-radius: 10px;
+    margin: 0px 470px 20px 470px;
+}
+.optional-button:hover{
+    background-color: rgb(107, 36, 11);
+    font-size: larger;
+}
+
+.optional-a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;  
+}
+.optional-img{
+    border-radius: 48px;
+    height: 364px;
+    width: 840px;
+    margin: 20px 140px 0px 140px ;
+
+}
+.optional{
+   /* background-color: white;  */
+   height: 700px;
+   width: 1000px;
+   /* border: 2px solid rgba(0, 0, 0, 0.468); */
+   border-radius: 12px;
+   /* margin: 50px 60px 0px 150px; */
+}
+.body{
+    background-color: #ddddec;
 }
