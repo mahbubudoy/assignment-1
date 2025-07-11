@@ -353,3 +353,63 @@ footer a{
 .body{
     background-color: #ddddec;
 }
+/* Email section CSS */
+.form-title{
+    font-size: 77px;
+    font-weight: bold;
+    height: 232px;
+    width: 528px;
+    color: #000000;
+}
+.label{
+    font-size:18px;
+    height: 22px;
+    width: 445px;
+    color: #000000;
+    gap: 10px;
+
+}
+.input{
+    height: 40px;
+    width: 445px;
+    border-radius: 5px;
+    padding: 9px;
+    border: none;
+}
+.text-input{
+    height: 85px;
+    width: 445px;
+    border-radius: 5px;
+    padding: 9px;
+    border: none;
+}
+.form-part{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+
+}
+.get-in-touch{
+    height: 62px;
+    width: 468px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    margin-top: 15px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    }
+.get-in-touch:hover{
+    background-color: rgb(219, 131, 30);
+    font-size: larger;
+}
+
+.form-sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 92px 180px 0px 185px;
+    background-color: #f2f9ffa8;
+}
