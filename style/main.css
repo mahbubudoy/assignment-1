@@ -259,3 +259,37 @@ nav button a {
 }
 /* Review card CSS end */
 
+
+/* footer CSS */
+/* Let's design Footer Section */
+.logo-footer{
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4E47FF;
+}
+.paragraph-footer{
+    height: 48px;
+    width: 539px;
+    color: #8987A1;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+}   
+.button-footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 435px 0px 410px;
+}
+footer ul li {
+    list-style: none;
+}
+footer a{
+    text-decoration: none;
+    color: #8987A1;
+}
+.footer-all{
+    margin-top: 200px;
+    background-color: rgb(255, 255, 255);
+    padding: 100px ;
+}
