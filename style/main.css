@@ -141,4 +141,50 @@ nav button a {
     width: 157px;
     padding: 12px 36px;
 
+} 
+
+/* design productive users things */
+
+.make-it{
+    height: 45px;
+    width: 856px;
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    margin:20px 100px 0 100px;
+    margin-top: auto;
+
+}
+.blue{
+    height: 97px;
+    width: 174px;
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+    margin-bottom: 0;
+}
+.hello{
+    height: 24px;
+    width: 160px;
+    font-size: 20px;
+    color: #0000007f;
+    margin:0 ;
+}
+.try-2{
+    display: flex;
+    margin: 0 142px 50px 142px;
+    justify-content: space-between;
+}
+.assets{
+    display: flex;
+    flex-direction: column;
+    background-color: #4d47ff34;
+    height: 306px;
+    width: 900px;
+    border: none;
+    border-radius: 24px;
+    margin: 116px 140px 0 140px;
+}
+.try{
+    margin-top:50px;
 }
